@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="custom_snippet_cycle" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/website/static/src/img/blocks/block_three_columns.png"/>
+                        <span class="oe_snippet_thumbnail_title">3 Captioned Cols.</span>
+                    </div>
+                    <section class="oe_snippet_body mt16 mb16">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="captioned_image_wrap">
+                                        <img class="img img-rounded img-responsive captioned_image_img" src="/website/static/src/img/desert_thumb.jpg"/>
+                                        <div class="captioned_image_caption"><span>Add a caption to your image</span></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="captioned_image_wrap">
+                                        <img class="img img-rounded img-responsive captioned_image_img" src="/website/static/src/img/deers_thumb.jpg"/>
+                                        <div class="captioned_image_caption"><span>Add a caption to your image</span></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="captioned_image_wrap">
+                                        <img class="img img-rounded img-responsive captioned_image_img" src="/website/static/src/img/china_thumb.jpg"/>
+                                        <div class="captioned_image_caption"><span>Add a caption to your image</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+    
+           </xpath>
+        </template>
+    </data>
+</openerp>

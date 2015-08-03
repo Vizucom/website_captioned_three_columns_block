@@ -1,0 +1,19 @@
+.captioned_image_wrap { 
+   position: relative; 
+   width: 100%;
+}
+
+.captioned_image_wrap div.captioned_image_caption { 
+   position: absolute; 
+   bottom: 0px; 
+   left: 0; 
+   color: white;   
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.55);
+   
+}
+.captioned_image_wrap div.captioned_image_caption span {
+    padding: 8px;
+    display: block;
+}
+ 

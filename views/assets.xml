@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="website_captioned_three_columns_block">
+            <xpath expr="." position="inside">
+                <link href="/website_captioned_three_columns_block/static/src/css/styles.css" rel="stylesheet"/>
+                <script type="text/javascript" src="/website_captioned_three_columns_block/static/src/js/captioned_three_columns.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>
